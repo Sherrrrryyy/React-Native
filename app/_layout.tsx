@@ -52,15 +52,14 @@ export default function RootLayout() {
           <Cards title={"Ride"} icon={"bike-scooter"} bgcolor={"#bedadc"} />
         </View>
         <View style={styles.row}>
-          <Cards title={"carpool"} icon={"electric-car"} bgcolor={"#ccc"} />
-          <Cards title={"carpool"} icon={"electric-car"} bgcolor={"#ccc"} />
+          <Cards title={"Delivery"} icon={"delivery-dining"} bgcolor={"#bedadc"} />
+          <Cards title={"Mobiles"} icon={"phone-android"} bgcolor={"#c1e1c5"} />
         </View>
         <View style={styles.row}>
-          <Cards title={"carpool"} icon={"electric-car"} bgcolor={"#ccc"} />
-          <Cards title={"carpool"} icon={"electric-car"} bgcolor={"#ccc"} />
+          <Cards title={"Shops"} icon={"shopping-bag"} bgcolor={"#c1e1c5"} />
+          <Cards title={"Rentals"} icon={"watch-later"} bgcolor={"#bedadc"} />
         </View>
       </View>
-
     </View>
   );
 }
